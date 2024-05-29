@@ -39,14 +39,12 @@ def page2():
     st.sidebar.markdown("Tablas en Excel")
     
     st.info('Generalidades')
-    st.write('''
-    El formato de tabla en Excel se refiere a una funcionalidad que convierteunrango 
-    de datos en una tabla estructurada y con estilo. Esta herramienta nosolomejora la 
-    apariencia visual de los datos, sino que también proporciona una seriedecaracterísticas 
-    que facilitan la gestión y el análisis de la información. 
-    
-    Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente 
-    definidas, con la opción de incluir encabezados de fila y columna.''')
+    #st.write('''El formato de tabla en Excel se refiere a una funcionalidad que convierteunrango 
+    #de datos en una tabla estructurada y con estilo. Esta herramienta nosolomejora la 
+    #apariencia visual de los datos, sino que también proporciona una seriedecaracterísticas 
+    #que facilitan la gestión y el análisis de la información. 
+    #Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente 
+    #definidas, con la opción de incluir encabezados de fila y columna.''')
 
    # df1 = pd.read_excel('practica_1_datos_1.xlsx')
     #st.write(df1)
