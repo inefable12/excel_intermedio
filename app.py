@@ -18,21 +18,11 @@ def Home():
     total1, total2 = st.columns(2, gap='large')
     with total1:
         st.info('Unidad 1: TABLAS')
-        st.write('''G.''')
+        st.write('''Gdf.''')
         
     with total2:
         st.info('Unidad 2: FUNCIONES CONDICIONALES')
-        st.write (pd.DataFrame({'Tema': ['Componentes y clasificación, ley de número equivalente',
-                                          'Unidades de concentración, fracción molar, Molaridad', 
-                                          'Normalidad y Molalidad, partes por millón',
-                                          'Método de dilución y mezcla de soluciones',
-                                          'problemas de estequiometria de soluciones',
-                                          'titulación acido – base, uso del indicador',
-                                          'Propiedades coligativas de las soluciones, ecuación de Vant Hoff'
-                                        ], 
-                                'Fecha': ["Semana", "Semana", 
-                                           "Semana","Semana", "Semana", 
-                                           "Semana","Semana",]}))
+
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
@@ -60,7 +50,7 @@ def page2():
     Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente 
     definidas, con la opción de incluir encabezados de fila y columna.''')
 
-    df1 = pd.read_excel('practica_1_datos.xlsx')
+    df1 = pd.read_excel('practica_1_datos_1.xlsx')
     st.write(df1)
   
     st.write('Puede ser útil')
