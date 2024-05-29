@@ -58,53 +58,11 @@ def page2():
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
-    st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab.''')
-    st.write('''Presentación: Enviar al delegado(a) el enlace al archivo: "nombre_grupo.ipynb"''')  
-    st.write('''Fecha máxima de entrega: Domingo 31/03/2024 a las 23:59''')
 
 ##
 def page3():
   st.header('# Clase 2: 18/05/2024')
-
-  lista = pd.DataFrame({'Nombre': ['Vilchez Flores Benito Junior',
-                                   'Castillo Quesada Sixto Gustavo',
-                                   'Zorrilla Calderón Miguel Andrés',
-                                   'Obispo Escajadillo Willians Josue',
-                                   'Gutierrez Espinoza Nick Anthony',
-                                   'Arias Alfaro Astrid Fiorella',
-                                   'Vasquez Quispe Anaira Valeria',
-                                   'Peña Lajo Jefferson Felipe',
-                                   'Maza Angeles Andree Alessandro',
-                                   'Cayo Bueno Fabrizio Daniel',
-                                   'Herrera Zela Sebastian Andres',
-                                   'Venegas Quispe Lucibeth Merliza',
-                                   'Alba Astudillos Rolando',
-                                   'Manyari Alejandria Peter Isaac',
-                                   'Fernandez Herrera Alejandro',
-                                   'Suclupe Franco Ashly Glenny',
-                                   'Oros Quispe Alexandra Soledad',
-                                   'Juarez Torres Saul Esteban',
-                                   'Quispe Rojas Sebastian Esteban',
-                                   'Cabrera Somoza Edgar Yonatan',
-                                   
-                                   ], 
-                        '18/03/2024': ["X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       ],
-                        '25/03/2024': ["X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       ]
-                        })
-
-  st.write(lista)
-
   st.write('''Bar chart''')
-  st.bar_chart(
-    lista, x="Nombre", y=["18/03/2024", "25/03/2024"]) #, color=["#FF0000", "#0000FF"])
 
 ##
 def page4():
