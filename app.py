@@ -27,14 +27,12 @@ def Home():
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Unidad 3: Principales funciones usadas en bases de datos')
-        st.write('''Definición, generalidades / Cálculo de la velocidad de una reacción química / Velocidades de reacción de orden cero, de 1° y 2º orden, ejercicios / Cálculo de la vida media de una reacción química / Factores que modifican la velocidad de reacción (temperatura, presión, concentración y catalizador).''')
+        st.write('''Definición, generalidades''')
         
     with total4:
         st.info('Unidad 4: Gráficos ')
-        st.write ('''Definición, características / Cálculo de la constante de equilibrio químico Kp y Kc / Relación de las constantes Kp y Kc / Grado de reacción (a) y cociente de reacción (Q) / relaciones entre 𝛼, Q y Kc 1 teoría de ácidos y bases / teoría de constante de acides y basicidad, Ka y Kb, teoría de auto- ionización del agua, Kw / Potencial del ión hidrogeno (pH), problemas / hidrólisis (Kh), soluciones buffer o tampón /cálculo del pH / Producto de solubílidad (Kps), efecto del ion común, solubilidad molar/ precipitación selectiva de iones (cationes y aniones).''')
-
-    
-    
+        st.write ('''Definición, características''')
+   
 ##############Pagina 2##############
 def page2():
     st.markdown("# Clase 1: 11/05/2024")
@@ -53,16 +51,12 @@ def page2():
     df1 = pd.read_excel('practica_1_datos_1.xlsx')
     st.write(df1)
   
-    st.write('Puede ser útil')
-    st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
-  
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
 
 ##
 def page3():
   st.header('# Clase 2: 18/05/2024')
-  st.write('''Bar chart''')
 
 ##
 def page4():
