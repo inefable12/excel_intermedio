@@ -8,7 +8,7 @@ from PIL import Image
 
 ##############
 st.sidebar.image("excel.png",
-                 caption=" Excel nivel intermedio ")
+                 caption="Excel nivel intermedio")
 
 ##############Pagina 1##############
 def Home():
@@ -49,7 +49,7 @@ def page2():
    # df1 = pd.read_excel('practica_1_datos_1.xlsx')
     #st.write(df1)
   
-    st.info('Grupal')
+    #st.info('Grupal')
     st.write('Tiempo estimado: 1 hora')
 
 ##
@@ -66,9 +66,9 @@ def page4():
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
-  "Clase 1": page2,
-  "Clase 2": page3,
-  "Clase 3": page4,
+  "Actividad": page2,
+  "Asistencia": page3,
+  "Consultas": page4,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
