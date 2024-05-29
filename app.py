@@ -59,7 +59,7 @@ def page3():
 ##
 def page4():
   #st.header('M', divider='rainbow')
-  st.header('# Clase 2: 18/05/2024')
+  st.header('# Clase 3: 18/05/2024')
    
   st.link_button("Guías", "https://forms.gle/sQj17Weg9dC1kw5a7")
   
