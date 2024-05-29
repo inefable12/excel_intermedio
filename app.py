@@ -1,10 +1,10 @@
 import streamlit as st
 import pandas as pd
-#import numpy as np
+import numpy as np
 from PIL import Image
 #import matplotlib.pyplot as plt
-import pip 
-pip.main(["instal","openpyxl"])
+#import pip 
+#pip.main(["instal","openpyxl"])
 
 ##############
 st.sidebar.image("excel.png",
@@ -48,8 +48,8 @@ def page2():
     Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente 
     definidas, con la opción de incluir encabezados de fila y columna.''')
 
-    df1 = pd.read_excel('practica_1_datos_1.xlsx')
-    st.write(df1)
+   # df1 = pd.read_excel('practica_1_datos_1.xlsx')
+    #st.write(df1)
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
