@@ -7,7 +7,7 @@ from PIL import Image
 #pip.main(["instal","openpyxl"])
 
 ##############
-st.sidebar.image("excel.png",
+st.sidebar.Image("excel.png",
                  caption=" Excel nivel intermedio ")
 
 ##############Pagina 1##############
