@@ -18,7 +18,7 @@ def Home():
     total1, total2 = st.columns(2, gap='large')
     with total1:
         st.info('Unidad 1: TABLAS')
-        st.write('''Gdf.''')
+        st.write('Gdf')
         
     with total2:
         st.info('Unidad 2: FUNCIONES CONDICIONALES')
@@ -27,11 +27,11 @@ def Home():
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Unidad 3: Principales funciones usadas en bases de datos')
-        st.write('''Definición, generalidades''')
+        st.write('Definición, generalidades')
         
     with total4:
         st.info('Unidad 4: Gráficos ')
-        st.write ('''Definición, características''')
+        st.write ('Definición, características')
    
 ##############Pagina 2##############
 def page2():
@@ -50,7 +50,7 @@ def page2():
     #st.write(df1)
   
     st.info('Grupal')
-    st.write('''Tiempo estimado: 1 hora''')
+    st.write('Tiempo estimado: 1 hora')
 
 ##
 def page3():
