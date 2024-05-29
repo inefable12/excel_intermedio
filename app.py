@@ -13,20 +13,13 @@ st.sidebar.image("excel.png",
 ##############Pagina 1##############
 def Home():
     st.markdown("# Temario")
-    st.sidebar.markdown("# Química I")
+    st.sidebar.markdown("# Excel Nivel Intermedio")
 
     total1, total2 = st.columns(2, gap='large')
     with total1:
         st.info('Unidad 1: TABLAS')
-        st.write('''Generalidades sobre las reacciones químicas y ecuaciones químicas. 
-                    Clasificación de las reacciones químicas. 
-                    Reacciones endotérmicas y exotérmicas, cálculo de la entalpía de la reacción, 
-                    entalpía de reacción estándar, ejercicios.
-                    Métodos de balanceo de la reacciones químicas (redox – ion electrón).
-                    Estequiometria I y las leyes ponderales, ley de conservación de la masa y de 
-                    las proporciones definidas, problemas. 
-                    Estequiometría II, ley de las relaciones sencillas, problemas con gases 
-                    ideales, masa equivalente.''')
+        st.write('''Diseño. Quitar duplicados. Filtros básicos, filtros avanzados.
+        Listas personalizadas. Validación de datos.''')
         
     with total2:
         st.info('Unidad 2: Funciones condicionales')
@@ -64,6 +57,9 @@ def page2():
     st.write ('''Repasar material introductorio sobre python en Google Colab''')
     st.write('Puede ser útil')
     st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
+
+    df = pd.read_excel("practica_1_datos_1.xlsx")
+    st.write(df)
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
