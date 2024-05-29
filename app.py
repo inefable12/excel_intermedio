@@ -8,7 +8,7 @@ from PIL import Image
 
 ##############
 st.sidebar.image("excel.png",
-                 caption=" Excel 'nivel intermedio' ")
+                 caption=" Excel nivel intermedio ")
 
 ##############Pagina 1##############
 def Home():
