@@ -40,11 +40,14 @@ def Home():
 
     total5, total6 = st.columns(2, gap='large')
     with total5:
-        st.info('Unidad 5: Principales funciones usadas en bases de datos')
-        st.write('''BDCONTAR, BDSUMA, BDMAX, BDMIN, BDPROMEDIO, BDCONTARA y BDEXTRAER. Función BUSCARV, Función BUSCARH''')
-        
+        st.info('Unidad 2: Funciones condicionales')
+        st.write (pd.DataFrame({'Tema': ['Función SI',
+                                          'Función SI', 
+                                          'Formatos'], 
+                                'Fecha': ["con varias condiciones", "(Y-O) anidada", 
+                                           "condicionales"]}))
     with total6:
-        st.info('Unidad 6: Gráficos')
+        st.info('Unidad 6: Solver Excel')
         st.write ('''Diagrama de Gantt en Excel. Gráficos de Cumplimiento o de Progreso en EXCEL.''')
     
 ##############Pagina 2##############
