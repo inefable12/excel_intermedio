@@ -38,7 +38,13 @@ def Home():
         st.info('Unidad 4: Gráficos')
         st.write ('''Diagrama de Gantt en Excel. Gráficos de Cumplimiento o de Progreso en EXCEL.''')
 
-    
+    with total5:
+        st.info('Unidad 5: Principales funciones usadas en bases de datos')
+        st.write('''BDCONTAR, BDSUMA, BDMAX, BDMIN, BDPROMEDIO, BDCONTARA y BDEXTRAER. Función BUSCARV, Función BUSCARH''')
+        
+    with total6:
+        st.info('Unidad 6: Gráficos')
+        st.write ('''Diagrama de Gantt en Excel. Gráficos de Cumplimiento o de Progreso en EXCEL.''')
     
 ##############Pagina 2##############
 def page2():
