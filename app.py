@@ -48,7 +48,7 @@ def Home():
                                            "condicionales"]}))
     with total6:
         st.info('Unidad 6: Solver Excel')
-        st.write ('''Diagrama de Gantt en Excel. Gráficos de Cumplimiento o de Progreso en EXCEL.''')
+        st.write ('''Aplicaciones y ejercicios.''')
     
 ##############Pagina 2##############
 def page2():
