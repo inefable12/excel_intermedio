@@ -32,7 +32,7 @@ def Home():
     total3, total4 = st.columns(2, gap='large')
     with total3:
         st.info('Unidad 3: Principales funciones usadas en bases de datos')
-        st.write('''Definición, generalidades / Cálculo de la velocidad de una reacción química / Velocidades de reacción de orden cero, de 1° y 2º orden, ejercicios / Cálculo de la vida media de una reacción química / Factores que modifican la velocidad de reacción (temperatura, presión, concentración y catalizador).''')
+        st.write('''BDCONTAR, BDSUMA, BDMAX, BDMIN, BDPROMEDIO, BDCONTARA y BDEXTRAER. Función BUSCARV, Función BUSCARH''')
         
     with total4:
         st.info('Unidad 4: Gráficos')
