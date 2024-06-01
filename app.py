@@ -23,11 +23,11 @@ def Home():
         
     with total2:
         st.info('Unidad 2: Funciones condicionales')
-        st.write (pd.DataFrame({'Tema': ['Creación de una Tabla Dinámica',
-                                          'Cálculos', 
-                                          'Extracción de datos'], 
-                                'Fecha': ["Ordenamiento y agrupamiento de datos", "Formato", 
-                                           "Modificación y actualización"]}))
+        st.write (pd.DataFrame({'Tema': ['Función SI',
+                                          'Función SI', 
+                                          'Formatos'], 
+                                'Fecha': ["con varias condiciones", "(Y-O) anidada", 
+                                           "condicionales"]}))
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
@@ -39,13 +39,15 @@ def Home():
         st.write ('''Diagrama de Gantt en Excel. Gráficos de Cumplimiento o de Progreso en EXCEL.''')
 
     total5, total6 = st.columns(2, gap='large')
+
     with total5:
         st.info('Unidad 2: Funciones condicionales')
-        st.write (pd.DataFrame({'Tema': ['Función SI',
-                                          'Función SI', 
-                                          'Formatos'], 
-                                'Fecha': ["con varias condiciones", "(Y-O) anidada", 
-                                           "condicionales"]}))
+        st.write (pd.DataFrame({'Tema': ['Creación de una Tabla Dinámica',
+                                          'Cálculos', 
+                                          'Extracción de datos'], 
+                                'Fecha': ["Ordenamiento y agrupamiento de datos", "Formato", 
+                                           "Modificación y actualización"]}))
+
     with total6:
         st.info('Unidad 6: Solver Excel')
         st.write ('''Aplicaciones y ejercicios.''')
