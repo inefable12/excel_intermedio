@@ -59,10 +59,10 @@ def page2():
     
     st.info('Generalidades')
     st.write('''El formato de tabla en Excel se refiere a una funcionalidad que convierte un rango de datos en una tabla estructurada y con estilo. Esta herramienta no solo mejora la apariencia visual de los datos, sino que también proporciona una serie de características que facilitan la gestión y el análisis de la información. Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente definidas, con la opción de incluir encabezados de fila y columna.''')
-    st.write('''Fecha de entrega: No aplica''')
+    st.write('''Para los siguientes ejercicios usar el libro llamado practica 1 datos.xlsx''')
     st.write ('''Repasar material introductorio sobre python en Google Colab''')
     st.write('Puede ser útil')
-    st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
+    #st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
 
     df = pd.read_excel("practica_1_datos_1.xlsx")
     st.write(df)
