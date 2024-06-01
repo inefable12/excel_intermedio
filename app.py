@@ -23,11 +23,11 @@ def Home():
         
     with total2:
         st.info('Unidad 2: Funciones condicionales')
-        st.write (pd.DataFrame({'Tema': ['Función SI',
-                                          'Función SI', 
-                                          'Formatos'], 
-                                'Fecha': ["con varias condiciones", "(Y-O) anidada", 
-                                           "condicionales"]}))
+        st.write (pd.DataFrame({'Tema': ['Creación de una Tabla Dinámica',
+                                          'Cálculos', 
+                                          'Extracción de datos'], 
+                                'Fecha': ["Ordenamiento y agrupamiento de datos", "Formato", 
+                                           "Modificación y actualización"]}))
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
