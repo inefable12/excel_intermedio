@@ -25,10 +25,9 @@ def Home():
         st.info('Unidad 2: Funciones condicionales')
         st.write (pd.DataFrame({'Tema': ['Función SI con varias condiciones.',
                                           'Función SI (Y-O) anidada', 
-                                          'Formatos condicionales',], 
+                                          'Formatos condicionales'], 
                                 'Fecha': ["Semana", "Semana", 
-                                           "Semana","Semana", "Semana", 
-                                           "Semana","Semana",]}))
+                                           "Semana"]}))
     
     total3, total4 = st.columns(2, gap='large')
     with total3:
