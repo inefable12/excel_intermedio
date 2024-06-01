@@ -124,7 +124,7 @@ def page4():
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
-  "Tablas en Excel": page2,
+  "1. Tablas en Excel": page2,
   "Asistencia": page3,
   "Consultas": page4,
 }
