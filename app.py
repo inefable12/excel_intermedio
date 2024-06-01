@@ -23,14 +23,9 @@ def Home():
         
     with total2:
         st.info('Unidad 2: Funciones condicionales')
-        st.write (pd.DataFrame({'Tema': ['Componentes y clasificación, ley de número equivalente',
-                                          'Unidades de concentración, fracción molar, Molaridad', 
-                                          'Normalidad y Molalidad, partes por millón',
-                                          'Método de dilución y mezcla de soluciones',
-                                          'problemas de estequiometria de soluciones',
-                                          'titulación acido – base, uso del indicador',
-                                          'Propiedades coligativas de las soluciones, ecuación de Vant Hoff'
-                                        ], 
+        st.write (pd.DataFrame({'Tema': ['Función SI con varias condiciones.',
+                                          'Función SI (Y-O) anidada', 
+                                          'Formatos condicionales'], 
                                 'Fecha': ["Semana", "Semana", 
                                            "Semana","Semana", "Semana", 
                                            "Semana","Semana",]}))
