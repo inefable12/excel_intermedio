@@ -36,7 +36,7 @@ def Home():
         
     with total4:
         st.info('Unidad 4: Gráficos')
-        st.write ('''Definición, características / Cálculo de la constante de equilibrio químico Kp y Kc / Relación de las constantes Kp y Kc / Grado de reacción (a) y cociente de reacción (Q) / relaciones entre 𝛼, Q y Kc 1 teoría de ácidos y bases / teoría de constante de acides y basicidad, Ka y Kb, teoría de auto- ionización del agua, Kw / Potencial del ión hidrogeno (pH), problemas / hidrólisis (Kh), soluciones buffer o tampón /cálculo del pH / Producto de solubílidad (Kps), efecto del ion común, solubilidad molar/ precipitación selectiva de iones (cationes y aniones).''')
+        st.write ('''Diagrama de Gantt en Excel. Gráficos de Cumplimiento o de Progreso en EXCEL.''')
 
     
     
