@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-import pip
-pip.main(["install", "openpyxl"])
+#import pip
+#pip.main(["install", "openpyxl"])
 from openpyxl import reader,load_workbook,Workbook
 import numpy as np
 from PIL import Image
