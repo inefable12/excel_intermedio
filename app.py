@@ -10,7 +10,7 @@ from PIL import Image
 st.sidebar.image("excel.png",
                  caption="Jesus Alvarado Huayhuaz, PhDc")
 
-##############Pagina 1##############
+##############Pagina 1###############
 def Home():
     st.markdown("# Temario")
     st.sidebar.markdown("# Excel Nivel Intermedio")
