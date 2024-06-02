@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
-from PIL import Image
-#import matplotlib.pyplot as plt
 import pip
 pip.main(["install", "openpyxl"])
+import numpy as np
+from PIL import Image
 
 ##############
 st.sidebar.image("excel.png",
@@ -63,8 +62,8 @@ def page2():
     st.write ('''A. Crear tablas y aplicarles formato''')
     #st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
 
-    df = pd.read_csv('practica_1_datos_1.csv')
-    st.dataframe(df)
+    df = pd.read_excel('practica_1_datos_1.xlsx')
+    st.write(df)
   
     st.info('Grupal')
     st.write('''Tiempo estimado: 1 hora''')
