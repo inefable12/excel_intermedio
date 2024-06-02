@@ -63,7 +63,7 @@ def page2():
     st.write ('''A. Crear tablas y aplicarles formato''')
     #st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
 
-    df = pd.read_csv("practica_1_datos_1.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/inefable12/excel_intermedio/main/practica_1_datos_1.csv")
     st.write(df)
   
     st.info('Grupal')
