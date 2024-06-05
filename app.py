@@ -103,6 +103,17 @@ def page2():
     st.image("img/img10.png")
     st.image("img/img11.png")
 
+    st.info("C. Quitar Duplicados")
+    st.write("(a) Use la hoja base duplica y haga una copia.")
+    st.write("(b) Dar formato de tabla.")
+    st.image("img/img12.png")
+    st.write('''(c) Cada vez que se ingrese a la tabla se activa la ficha 
+    "Diseño de tabla" donde encontrara la opción "Quitar duplicado" ''')
+    st.image("img/img13.png")
+
+
+
+
 #me quede en validacion de datos
 
 #############################Pagina 3##############################    
