@@ -10,7 +10,7 @@ from PIL import Image
 st.sidebar.image("excel.png",
                  caption="Curso para Docentes")
 
-##############Pagina 1###############    
+#############################Pagina 1##############################    
 def Home():
     st.markdown("# Temario")
     st.sidebar.markdown("# Excel Nivel Intermedio")
@@ -52,7 +52,7 @@ def Home():
         st.info('Unidad 6: Solver Excel')
         st.write ('''Aplicaciones y ejercicios.''')
     
-##############Pagina 2##############
+#############################Pagina 2##############################    
 def page2():
     st.markdown("Tablas en Excel")
     st.sidebar.markdown("Práctica Nº1")
@@ -91,7 +91,9 @@ def page2():
     st.write('''(d) Seleccionar “Copiar a otro lugar”. En “Rango de la lista” seleccionar 
     la tabla de datos. En “Rango de criterios” seleccionar las celdas con los criterios de 
                 filtro de la hoja Filtrar. En “Copiar a” indicar donde serán colocados los datos filtrados. ''')
-##
+
+#############################Pagina 3##############################    
+
 def page3():
   st.header('''Asistencia''')
 
@@ -135,43 +137,43 @@ def page3():
   st.bar_chart(
     lista, x="Nombre", y=["18/03/2024", "25/03/2024"]) #, color=["#FF0000", "#0000FF"])
 
-##
+#############################Pagina 4##############################    
+
 def page4():
   st.header('Más información', divider='rainbow')
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
-##
+#############################Pagina 5##############################    
+
 def page5():
   st.header('Más información', divider='rainbow')
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
-##
+#############################Pagina 6##############################    
+
 def page6():
   st.header('Más información', divider='rainbow')
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
-##
+#############################Pagina 7##############################    
+
 def page7():
   st.header('Más información', divider='rainbow')
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
-##
+#############################Pagina 8##############################    
+
 def page8():
   st.header('Más información', divider='rainbow')
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
-##
-def page8():
-  st.header('Más información', divider='rainbow')
-   
-  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
+#############################Pagina 9##############################    
 
-##
 def page9():
   st.header('Más información', divider='rainbow')
    
