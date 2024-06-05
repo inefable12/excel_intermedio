@@ -61,9 +61,7 @@ def page2():
     st.write('''El formato de tabla en Excel se refiere a una funcionalidad que convierte un rango de datos en una tabla estructurada y con estilo. Esta herramienta no solo mejora la apariencia visual de los datos, sino que también proporciona una serie de características que facilitan la gestión y el análisis de la información. Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente definidas, con la opción de incluir encabezados de fila y columna.''')
     st.write('''Para los siguientes ejercicios usar el libro llamado "practica 1 datos.xlsx" ''')
     st.info('A. Crear tablas y aplicarles formato')  
-    #st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
 
-    #df = pd.read_excel('practica_1_datos_1.xlsx')
     df = pd.read_csv('practica_1_datos_1.csv')
     st.write(df)
     st.write('''Para dar el formato de tabla en Excel a un rango de datos se deberá hacer lo siguiente:''')
@@ -74,7 +72,7 @@ def page2():
     st.write('''(d) Crear un campo nuevo llamado Promedio y calcular el promedio simple de las 3 notas.''')
     st.image("img1.png", caption="Tabla y promedio")  
     st.write('''(e) Crear un campo llamado Promedio2 que representa el promedio eliminando la nota mas baja. Use en la primera celda la formula.''')
-    #st.write(''' ''')
+    
     st.info('''=(SUMA(H2\:J2)-MIN(H2\:J2))/(CONTARA(H2\:J2)-1)''')
     st.image("img2.png", caption="Tabla y promedio2")
 
@@ -95,10 +93,14 @@ def page2():
 #############################Pagina 3##############################    
 
 def page3():
-  st.header('''Asistencia''')
+  st.header('''Funciones Condicionales''')
 
-
-  st.write(lista)
+  st.info("A. Función SI con dos condiciones")
+  st.write('''La función SI se utiliza para hacer una comparación lógica: 
+  ¿Es el valor consultado idéntico al valor esperado o no? Solo si esta consulta es cierta,
+  puede ocurrir un determinado evento. Si la comparación es incorrecta, se 
+  desencadena otra acción, es decir, si A, entonces B; en caso contrario, C. La 
+  función SI tiene los siguientes argumentos: ''')
 
   st.write('''Bar chart''')
   st.bar_chart(
