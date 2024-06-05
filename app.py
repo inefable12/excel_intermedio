@@ -112,9 +112,10 @@ def page4():
 #############################Pagina 5##############################    
 
 def page5():
-  st.header('Más información', divider='rainbow')
+  st.header('EXAMEN PARCIAL', divider='rainbow')
    
-  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
+  st.link_button("SOLICITAR", "https://forms.gle/T8hNLvZeDQLZLbKy8")
+  #https://drive.google.com/drive/folders/1H-X0lKR19MznkDvHQH_SpsdbAf_iVzVi?usp=sharing
 
 #############################Pagina 6##############################    
 
