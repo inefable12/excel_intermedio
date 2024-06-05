@@ -97,39 +97,6 @@ def page2():
 def page3():
   st.header('''Asistencia''')
 
-  lista = pd.DataFrame({'Nombre': ['Vilchez Flores Benito Junior',
-                                   'Castillo Quesada Sixto Gustavo',
-                                   'Zorrilla Calderón Miguel Andrés',
-                                   'Obispo Escajadillo Willians Josue',
-                                   'Gutierrez Espinoza Nick Anthony',
-                                   'Arias Alfaro Astrid Fiorella',
-                                   'Vasquez Quispe Anaira Valeria',
-                                   'Peña Lajo Jefferson Felipe',
-                                   'Maza Angeles Andree Alessandro',
-                                   'Cayo Bueno Fabrizio Daniel',
-                                   'Herrera Zela Sebastian Andres',
-                                   'Venegas Quispe Lucibeth Merliza',
-                                   'Alba Astudillos Rolando',
-                                   'Manyari Alejandria Peter Isaac',
-                                   'Fernandez Herrera Alejandro',
-                                   'Suclupe Franco Ashly Glenny',
-                                   'Oros Quispe Alexandra Soledad',
-                                   'Juarez Torres Saul Esteban',
-                                   'Quispe Rojas Sebastian Esteban',
-                                   'Cabrera Somoza Edgar Yonatan',
-                                   
-                                   ], 
-                        '18/03/2024': ["X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       ],
-                        '25/03/2024': ["X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       "X","X","X","X","X",
-                                       ]
-                        })
 
   st.write(lista)
 
@@ -179,7 +146,10 @@ def page9():
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
-##
+################################################################### 
+##########################Configuracion############################    
+###################################################################    
+
 page_names_to_funcs = {
   "Contenido del Curso": Home,
   "Clase 1. Tablas en Excel": page2,
