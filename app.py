@@ -10,7 +10,7 @@ from PIL import Image
 st.sidebar.image("excel.png",
                  caption="Jesus Alvarado Huayhuaz, PhDc")
 
-##############Pagina 1###############
+##############Pagina 1###############    
 def Home():
     st.markdown("# Temario")
     st.sidebar.markdown("# Excel Nivel Intermedio")
@@ -88,7 +88,9 @@ def page2():
     st.write('''(c) Usar el filtro avanzado''')
 
     st.image("img4.png")
-
+    st.write('''(d) Seleccionar “Copiar a otro lugar”. En “Rango de la lista” seleccionar 
+    la tabla de datos. En “Rango de criterios” seleccionar las celdas con los criterios de 
+                filtro de la hoja Filtrar. En “Copiar a” indicar donde serán colocados los datos filtrados. ''')
 ##
 def page3():
   st.header('''Asistencia''')
