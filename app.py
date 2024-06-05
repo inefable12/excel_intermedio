@@ -61,7 +61,6 @@ def page2():
     st.write('''El formato de tabla en Excel se refiere a una funcionalidad que convierte un rango de datos en una tabla estructurada y con estilo. Esta herramienta no solo mejora la apariencia visual de los datos, sino que también proporciona una serie de características que facilitan la gestión y el análisis de la información. Al aplicar el formato de tabla, los datos se organizan en filas y columnas claramente definidas, con la opción de incluir encabezados de fila y columna.''')
     st.write('''Para los siguientes ejercicios usar el libro llamado "practica 1 datos.xlsx" ''')
     st.info('A. Crear tablas y aplicarles formato')  
-    #st.write ('''''')
     #st.write(pd.DataFrame({'Notebook': ['https://github.com/inefable12/CQCPE_2023_jesus/blob/main/1_ABC_Python_github.ipynb', 'https://github.com/inefable12/balanceo_rxn_combustion_espanol']}))
 
     #df = pd.read_excel('practica_1_datos_1.xlsx')
@@ -69,10 +68,8 @@ def page2():
     st.write(df)
   
     st.info('Grupal')
-    st.write('''Tiempo estimado: 1 hora''')
-    st.write('''Por grupo resolver los ejercicios asignados (capítulo 3 de Brown) empleando python desde Google Colab.''')
-    st.write('''Presentación: Enviar al delegado(a) el enlace al archivo: "nombre_grupo.ipynb"''')  
-    st.write('''Fecha máxima de entrega: Domingo 31/03/2024 a las 23:59''')
+    st.write('''Para dar el formato de tabla en Excel a un rango de datos se deberá hacer lo siguiente:''')
+    st.write('''(a) Seleccionar la lista de datos sea arrastrando con clic derecho sin soltar desde la primera celda hasta la ultima o usando el atajo Ctrl + E. Otra manera de seleccionar todos los datos es usar las teclas Ctrl + Shift + -> y luego Ctrl + Shift + ⭣''')
 
 ##
 def page3():
