@@ -77,6 +77,8 @@ def page2():
     #st.write(''' ''')
     st.info('''=(SUMA(H2\:J2)-MIN(H2\:J2))/(CONTARA(H2\:J2)-1)''')
     st.image("img2.png", caption="Tabla y promedio2")
+
+    st.info("B. Filtro avanzado:"
     
   
 ##
