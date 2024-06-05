@@ -126,7 +126,33 @@ def page2():
     st.write("(b) Seleccionar la columna que se usara para detectar registros duplicados.")
     st.write('''(c) Ir a “Formato condicional”, “Regla para resaltar celdas” y “Valores duplicados”''')
 
- st.image("img/img16.png")
+    st.image("img/img16.png")
+
+    st.write("(d) Se puede elegir el formato que se usara para resaltar los registros duplicados.")
+    st.image("img/img17.png")
+
+    st.write("(e) Excel mostrara los duplicados de acuerdo al formato elegido.")
+    st.image("img/img18.png")
+
+    st.write('''(f) Para una mejor visualización de los registros duplicados puede hacer 
+    uso de la opción de filtro que tiene la tabla. Primero aplicar “Ordenar de menor a 
+    mayor” y luego “Ordenar por color”.''')
+    st.image("img/img19.png")
+    st.image("img/img20.png")
+
+    st.write("(g) Se muestra el resultado a continuación.")
+    st.image("img/img21.png")
+
+    st.info("Validación de Datos")
+    st.image("img/img22.png")
+
+
+
+
+
+
+
+
 
 #me quede en validacion de datos
 
