@@ -75,6 +75,8 @@ def page2():
     st.write('''(e) Crear un campo llamado Promedio2 que representa el promedio eliminando la nota mas baja. Use en la primera celda la formula.''')
     #st.write(''' ''')
     st.info('''=(SUMA(H2\:J2)-MIN(H2\:J2))/(CONTARA(H2\:J2)-1)''')
+
+    st.image("img1.png", caption="Tabla y promedio")
   
 ##
 def page3():
