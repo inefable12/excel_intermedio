@@ -79,6 +79,8 @@ def page2():
     st.image("img2.png", caption="Tabla y promedio2")
 
     st.info("B. Filtro avanzado:")
+    st.write('''(a) Crear una hoja nueva llamada Filtrar.''')
+    st.write('''(b) En dos celdas contiguas colocar:''')
     
   
 ##
