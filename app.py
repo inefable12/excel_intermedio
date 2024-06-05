@@ -154,13 +154,40 @@ def page6():
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
 ##
+def page7():
+  st.header('Más información', divider='rainbow')
+   
+  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
+
+##
+def page8():
+  st.header('Más información', divider='rainbow')
+   
+  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
+
+##
+def page8():
+  st.header('Más información', divider='rainbow')
+   
+  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
+
+##
+def page9():
+  st.header('Más información', divider='rainbow')
+   
+  st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
+
+##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
   "Clase 1. Tablas en Excel": page2,
   "Clase 2: Funciones Condicionales": page3,
   "Clase 3: Base de Datos": page4,
   "Examen Parcial": page5,
-  "Clase 4: Solver Excel": page6,
+  "Clase 4: Gráficos": page6,
+  "Clase 5: Tablas Dinámicas": page7,
+  "Clase 6: Solver Excel": page8,
+  "Examen Final": page9,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
