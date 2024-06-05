@@ -66,11 +66,11 @@ def page2():
     #df = pd.read_excel('practica_1_datos_1.xlsx')
     df = pd.read_csv('practica_1_datos_1.csv')
     st.write(df)
-  
-    st.info('Grupal')
     st.write('''Para dar el formato de tabla en Excel a un rango de datos se deberá hacer lo siguiente:''')
     st.write('''(a) Seleccionar la lista de datos sea arrastrando con clic derecho sin soltar desde la primera celda hasta la ultima o usando el atajo Ctrl + E. Otra manera de seleccionar todos los datos es usar las teclas Ctrl + Shift + -> y luego Ctrl + Shift + ⭣''')
 
+    st.write('''(b) Luego en la barra de herramientas clic en el icono “Dar formato como tabla” o usar el atajo Ctrl + T. Seleccione el estilo de color que mas le agrade. Finalmente dar aceptar verificando que la casilla de encabezados este marcada.''')    st.info('Grupal')
+  
 ##
 def page3():
   st.header('''Asistencia''')
