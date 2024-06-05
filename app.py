@@ -83,10 +83,9 @@ def page2():
     st.write('''(b) En dos celdas contiguas colocar:''')
 
     st.image("img3.png")
-    
-Esto representa los criterios de aplicación del filtro. Nota: Debe ser escrito tal como
-esta en la base de datos.
-c) Usar el filtro avanzado
+
+    st.write('''Esto representa los criterios de aplicación del filtro. Nota: Debe ser escrito tal como esta en la base de datos.''')
+    st.write('''(c) Usar el filtro avanzado''')
 
 ##
 def page3():
