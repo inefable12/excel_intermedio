@@ -87,7 +87,7 @@ def page2():
     st.write('''Esto representa los criterios de aplicación del filtro. Nota: Debe ser escrito tal como esta en la base de datos.''')
     st.write('''(c) Usar el filtro avanzado''')
 
-    st.image("img4.png)
+    st.image("img4.png")
 
 ##
 def page3():
