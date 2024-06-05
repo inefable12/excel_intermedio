@@ -68,27 +68,37 @@ def page2():
     st.write('''(a) Seleccionar la lista de datos sea arrastrando con clic derecho sin soltar desde la primera celda hasta la ultima o usando el atajo Ctrl + E. Otra manera de seleccionar todos los datos es usar las teclas Ctrl + Shift + -> y luego Ctrl + Shift + ⭣''')
 
     st.write('''(b) Luego en la barra de herramientas clic en el icono “Dar formato como tabla” o usar el atajo Ctrl + T. Seleccione el estilo de color que mas le agrade. Finalmente dar aceptar verificando que la casilla de encabezados este marcada.''')    
-    st.write('''(c) La apariencia cambiara de acuerdo a nuestra selección de estilo dando por finalizado el proceso.''')
+    st.write('''(c) La apariencia cambiará de acuerdo a nuestra selección de estilo dando por finalizado el proceso.''')
     st.write('''(d) Crear un campo nuevo llamado Promedio y calcular el promedio simple de las 3 notas.''')
-    st.image("img1.png", caption="Tabla y promedio")  
+    st.image("img/img1.png", caption="Tabla y promedio")  
     st.write('''(e) Crear un campo llamado Promedio2 que representa el promedio eliminando la nota mas baja. Use en la primera celda la formula.''')
     
     st.info('''=(SUMA(H2\:J2)-MIN(H2\:J2))/(CONTARA(H2\:J2)-1)''')
-    st.image("img2.png", caption="Tabla y promedio2")
+    st.image("img/img2.png", caption="Tabla y promedio2")
 
     st.info("B. Filtro avanzado:")
     st.write('''(a) Crear una hoja nueva llamada Filtrar.''')
     st.write('''(b) En dos celdas contiguas colocar:''')
 
-    st.image("img3.png")
+    st.image("img/img3.png")
 
-    st.write('''Esto representa los criterios de aplicación del filtro. Nota: Debe ser escrito tal como esta en la base de datos.''')
+    st.write('''Esto representa los criterios de aplicación del filtro.''') 
+    st.write('''Nota: Debe ser escrito tal como esta en la base de datos.''')
     st.write('''(c) Usar el filtro avanzado''')
 
-    st.image("img4.png")
+    st.image("img/img4.png")
     st.write('''(d) Seleccionar “Copiar a otro lugar”. En “Rango de la lista” seleccionar 
     la tabla de datos. En “Rango de criterios” seleccionar las celdas con los criterios de 
                 filtro de la hoja Filtrar. En “Copiar a” indicar donde serán colocados los datos filtrados. ''')
+
+    st.image("img/img5.png")
+
+
+
+
+
+
+
 
 #############################Pagina 3##############################    
 
