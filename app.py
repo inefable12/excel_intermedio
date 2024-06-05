@@ -95,11 +95,13 @@ def page2():
     st.image("img/img6.png")
     st.image("img/img7.png")
 
-    
-
-
-
-
+    st.write("(e) Aplicar el siguiente filtro:")
+    st.image("img/img8.png")
+    st.image("img/img9.png")
+  
+    st.write("(f) Aplicar el siguiente filtro:")
+    st.image("img/img10.png")
+    st.image("img/img11.png")
 
 #me quede en validacion de datos
 
