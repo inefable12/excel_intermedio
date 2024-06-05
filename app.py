@@ -72,11 +72,12 @@ def page2():
     st.write('''(b) Luego en la barra de herramientas clic en el icono “Dar formato como tabla” o usar el atajo Ctrl + T. Seleccione el estilo de color que mas le agrade. Finalmente dar aceptar verificando que la casilla de encabezados este marcada.''')    
     st.write('''(c) La apariencia cambiara de acuerdo a nuestra selección de estilo dando por finalizado el proceso.''')
     st.write('''(d) Crear un campo nuevo llamado Promedio y calcular el promedio simple de las 3 notas.''')
+    st.image("img1.png", caption="Tabla y promedio")  
     st.write('''(e) Crear un campo llamado Promedio2 que representa el promedio eliminando la nota mas baja. Use en la primera celda la formula.''')
     #st.write(''' ''')
     st.info('''=(SUMA(H2\:J2)-MIN(H2\:J2))/(CONTARA(H2\:J2)-1)''')
-
-    st.image("img1.png", caption="Tabla y promedio")
+    st.image("img2.png", caption="Tabla y promedio2")
+    
   
 ##
 def page3():
