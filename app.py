@@ -8,7 +8,7 @@ from PIL import Image
 
 ##############
 st.sidebar.image("excel.png",
-                 caption="Jesus Alvarado Huayhuaz, PhDc")
+                 caption="Curso para Docentes")
 
 ##############Pagina 1###############    
 def Home():
@@ -144,9 +144,9 @@ def page4():
 ##
 page_names_to_funcs = {
   "Contenido del Curso": Home,
-  "1. Tablas en Excel": page2,
-  "Asistencia": page3,
-  "Consultas": page4,
+  "Clase 1. Tablas en Excel": page2,
+  "Clase 2: Funciones Condicionales": page3,
+  "Clase 3: Base de Datos": page4,
 }
 
 selected_page = st.sidebar.selectbox("Selecciona una página", page_names_to_funcs.keys())
