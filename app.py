@@ -102,10 +102,6 @@ def page3():
   desencadena otra acción, es decir, si A, entonces B; en caso contrario, C. La 
   función SI tiene los siguientes argumentos: ''')
 
-  st.write('''Bar chart''')
-  st.bar_chart(
-    lista, x="Nombre", y=["18/03/2024", "25/03/2024"]) #, color=["#FF0000", "#0000FF"])
-
 #############################Pagina 4##############################    
 
 def page4():
