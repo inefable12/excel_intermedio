@@ -108,11 +108,25 @@ def page2():
     st.write("(b) Dar formato de tabla.")
     st.image("img/img12.png")
     st.write('''(c) Cada vez que se ingrese a la tabla se activa la ficha 
-    "Diseño de tabla" donde encontrara la opción "Quitar duplicado" ''')
+    "Diseño de tabla" donde encontrará la opción "Quitar duplicado" ''')
     st.image("img/img13.png")
 
+    st.write('''(d) Elegir el criterio de coincidencia, para este ejercicio 
+    considerar ID estudiante, Apellido paterno, Apellido materno y Nombre. 
+    Aceptar.''')
+    st.image("img/img14.png")
+    st.image("img/img15.png")
+    st.write("Mensaje de Excel que indica la detección de duplicados y posterior eliminación.")
 
+    st.info("Detección de valores duplicados mediante el uso de formato condicional")
 
+    st.write('''Si se desea analizar los datos duplicados antes de eliminarlos se 
+    puede proceder de la siguiente manera:''')
+    st.write("(a) Copiar los datos darle formato de tabla.")
+    st.write("(b) Seleccionar la columna que se usara para detectar registros duplicados.")
+    st.write('''(c) Ir a “Formato condicional”, “Regla para resaltar celdas” y “Valores duplicados”''')
+
+ st.image("img/img16.png")
 
 #me quede en validacion de datos
 
