@@ -81,8 +81,13 @@ def page2():
     st.info("B. Filtro avanzado:")
     st.write('''(a) Crear una hoja nueva llamada Filtrar.''')
     st.write('''(b) En dos celdas contiguas colocar:''')
+
+    st.image("img3.png")
     
-  
+Esto representa los criterios de aplicación del filtro. Nota: Debe ser escrito tal como
+esta en la base de datos.
+c) Usar el filtro avanzado
+
 ##
 def page3():
   st.header('''Asistencia''')
