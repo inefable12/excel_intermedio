@@ -92,13 +92,16 @@ def page2():
                 filtro de la hoja Filtrar. En “Copiar a” indicar donde serán colocados los datos filtrados. ''')
 
     st.image("img/img5.png")
+  st.image("img/img6.png")
+st.image("img/img7.png")
+
+    
 
 
 
 
 
-
-
+#me quede en validacion de datos
 
 #############################Pagina 3##############################    
 
