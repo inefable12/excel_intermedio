@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 
 ##############
-st.sidebar.image("excel.png",
+st.sidebar.image("img/excel.png",
                  caption="Curso para Docentes")
 
 #############################Pagina 1##############################    
@@ -62,7 +62,7 @@ def page2():
     st.write('''Para los siguientes ejercicios usar el libro llamado "practica 1 datos.xlsx" ''')
     st.info('A. Crear tablas y aplicarles formato')  
 
-    df = pd.read_csv('practica_1_datos_1.csv')
+    df = pd.read_csv('csv/practica_1_datos_1.csv')
     st.write(df)
     st.write('''Para dar el formato de tabla en Excel a un rango de datos se deberá hacer lo siguiente:''')
     st.write('''(a) Seleccionar la lista de datos sea arrastrando con clic derecho sin soltar desde la primera celda hasta la ultima o usando el atajo Ctrl + E. Otra manera de seleccionar todos los datos es usar las teclas Ctrl + Shift + -> y luego Ctrl + Shift + ⭣''')
