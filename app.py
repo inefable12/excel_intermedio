@@ -193,7 +193,7 @@ def page6():
 #############################Pagina 7##############################    
 
 def page7():
-  st.header('Más información', divider='rainbow')
+  st.header('TABLAS DINÁMICAS', divider='rainbow')
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
