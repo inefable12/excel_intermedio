@@ -197,6 +197,16 @@ def page7():
    
   st.link_button("Github", "https://github.com/inefable12/Quimica_1_FIA_UNI/")
 
+  st.write('''(d) Seleccionar “Copiar a otro lugar”. En “Rango de la lista” seleccionar 
+  la tabla de datos. En “Rango de criterios” seleccionar las celdas con los criterios de 
+  filtro de la hoja Filtrar. En “Copiar a” indicar donde serán colocados los datos filtrados. ''')
+
+  st.image("img/6_1.png")
+  st.image("img/6_2.png")
+  st.image("img/6_3.png")
+  st.image("img/6_4.png")
+  st.image("img/6_5.png")
+
 #############################Pagina 8##############################    
 
 def page8():
